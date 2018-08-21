@@ -1,7 +1,7 @@
 .article-card {
     max-width: 26rem;
     padding: 0;
-    margin: 5rem;
+    margin: 3rem 1rem;
 
 }
 .mat-card-image {
@@ -15,4 +15,19 @@
 .card-content {
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+@media screen and (max-width: 450px) {
+    .article-card {
+        margin: 3rem 0;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: .9rem;
+    }
+    p {
+        font-size: .9rem;
+    }
 }
