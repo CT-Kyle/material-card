@@ -6,5 +6,16 @@
 }
 .read-full {
     color: #dd7537;
+    display: inline-block;
+}
+.read-full-wrapper {
     padding-bottom: 2rem;
+    
+}
+
+.read-full-arrow{
+    height: .6rem;
+    padding: 0rem 0rem .05rem .5rem;
+    display: inline-block;
+
 }

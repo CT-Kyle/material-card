@@ -1,4 +1,5 @@
 import {MatCardModule} from '@angular/material/card';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -16,6 +17,7 @@ import { CardContentComponent } from './card-content/card-content.component';
   ],
   imports: [
     MatCardModule,
+    BrowserAnimationsModule,
     BrowserModule
   ],
   providers: [],
