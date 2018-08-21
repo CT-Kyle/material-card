@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+h1 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #4d4d4e;
+    margin: .2rem 0 .2rem 0;
+}
+h2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin: .2rem 0 .2rem 0;
+
+}
+p {
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #727272;
+    line-height: 1.7rem;
+}
+@media screen and (max-width: 450px) {
+    .article-card {
+        margin: 3rem 0;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: .9rem;
+    }
+    p {
+        font-size: .9rem;
+    }
+    .article-card-text {
+        padding-bottom: 0 !important;
+    }
+    .card-content {
+        margin: 0 1.5rem !important;
+    }
+}
